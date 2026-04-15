@@ -6,8 +6,6 @@ from astropy.table import Table, Column
 from astropy.io import fits
 import numpy as np
 import matplotlib.pyplot as plt
-from sys import path as pythonpath
-from os import getcwd, path
 import healpixel_functions
 from sys import argv
 

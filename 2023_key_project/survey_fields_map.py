@@ -34,7 +34,7 @@ for survey, survey_params in survey_regions.items():
     hp_index = []
     for coord in field_centres:
         pixels = healpixel_functions.skycoord_to_HPindex(coord[2], NSIDE,
-                                                        radius=survey_params[1])
+                                                         radius=survey_params[1])
         hp_index += pixels.tolist()
     map_pixels = list(set(hp_index))
 
